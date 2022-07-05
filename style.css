@@ -43,6 +43,7 @@ section{
 }
 .amount-text{
     text-align: center;
+    margin-bottom: 30px;
 }
 .all-amount{
     display: flex;
@@ -111,4 +112,43 @@ hr{
     letter-spacing: 1px;
     border-radius: 10px;
     margin-right: 55px;
+}
+.plan-text{
+    width: 100%;
+    text-align: center;
+}
+.three-plan{
+    display: flex;
+    width: 95%;
+    margin: 40px;
+    height: 350px;
+    
+}
+.three-plan img{
+    margin-top: 30px;
+    height: 60px;
+    width: 60px;
+}
+.three-plan h3{
+    font-size: 20px;
+    padding:20px 0px;
+}
+
+.food-plan{
+    background-color: rgb(203, 247, 232);
+    padding: 10px;
+    width: 100%;
+    
+}
+.shelter-plan{
+    background-color: rgb(253, 165, 234);
+    margin: 0% 2%;
+    padding: 10px;
+    width: 100%;
+}
+.edu-plan{
+    background-color: blanchedalmond;
+    padding: 10px;
+    width: 100%;
+    
 }
