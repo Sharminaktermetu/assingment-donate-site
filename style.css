@@ -123,8 +123,8 @@ hr{
 }
 .three-plan{
     display: flex;
-    width: 95%;
-    margin: 40px;
+    width: 980px;
+margin: auto;
     height: 350px;
     
 }
@@ -219,4 +219,43 @@ hr{
     font-size: 15px;
     letter-spacing: 1px;
 
+}
+footer{
+    background-color: black;
+    padding:10px;
+}
+.f-text h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(255, 131, 131, 0.986);
+}
+.f-text span{
+    color: white;
+}
+.team{
+    width: 100%;
+    display: flex;
+    background-image: linear-gradient(to bottom, rgb(78 84 114 / 52%), rgb(237 237 237 / 97%)),url(images/member.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    
+}
+.team img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    box-shadow: 20px 10px 10px #888;
+
+}
+.member{
+    transform: translateY(20%);
+}
+.team p{
+    font-size: 20px;
+    color: #888;
+}
+.team q{
+    font-weight: 800;
+    font-size: larger;
 }
