@@ -59,6 +59,7 @@ section{
     margin-top: 2%;
     margin-left: 4%;
     text-align: center;
+    border-radius: 8px;
     
 }
 .tk span{
@@ -67,7 +68,7 @@ section{
     transform: translateY(-50%);
     font-size: 30px;
     font-weight: 600;    
-    border-radius: 4px;
+    
     color: #888;
     
 }
@@ -137,6 +138,9 @@ margin: auto;
     font-size: 20px;
     padding:20px 0px;
 }
+.three-plan p{
+    color: #888;
+}
 
 .food-plan{
     background-color: rgb(203, 247, 232);
@@ -176,11 +180,43 @@ margin: auto;
 }
 .help-text p{
     color: #888;
+    margin-bottom: 40px;
 }
 .help img{
     margin: 50px;
     width: 500px;
     border-radius: 10px;
+}
+.team{
+    width: 100%;
+    display: flex;
+    background-image: linear-gradient(to bottom, rgb(78 84 114 / 52%), rgb(237 237 237 / 97%)),url(images/member.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    
+}
+.team img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    box-shadow: 20px 10px 10px #888;
+
+}
+.member{
+    transform: translateY(20%);
+}
+.team p{
+    font-size: 20px;
+    color: #888;
+}
+.quote{
+    width: 80px;
+}
+.team q{
+    font-weight: 800;
+    font-size: larger;
 }
 .subscribe{
     width: 100%;
@@ -230,32 +266,4 @@ footer{
 }
 .f-text span{
     color: white;
-}
-.team{
-    width: 100%;
-    display: flex;
-    background-image: linear-gradient(to bottom, rgb(78 84 114 / 52%), rgb(237 237 237 / 97%)),url(images/member.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 400px;
-    text-align: center;
-    
-}
-.team img{
-    width: 150px;
-    height: 150px;
-    border-radius: 100%;
-    box-shadow: 20px 10px 10px #888;
-
-}
-.member{
-    transform: translateY(20%);
-}
-.team p{
-    font-size: 20px;
-    color: #888;
-}
-.team q{
-    font-weight: 800;
-    font-size: larger;
 }
